@@ -24,5 +24,9 @@ public final class App {
         System.out.println();
 
         cse.example4();
+        System.out.println();
+
+        ConcurrentHashMapExample chme = new ConcurrentHashMapExample();
+        chme.example();
     }
 }
