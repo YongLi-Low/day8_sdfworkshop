@@ -28,6 +28,10 @@
 <error line="41" column="9" severity="error" message="&apos;&quot;abc@nus.edu.sg&quot;&apos; has incorrect indentation level 8, expected level should be 12." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="41" column="27" severity="error" message="&apos;60_000&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
 </file>
+<file name="/Users/yongli/TFIP_Batch2/day8_sdfworkshop/src/main/java/sg/edu/nus/iss/LinkedListExample.java">
+<error line="5" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="7" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
 <file name="/Users/yongli/TFIP_Batch2/day8_sdfworkshop/src/main/java/sg/edu/nus/iss/ConcurrentHashMapExample.java">
 <error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
 <error line="8" column="5" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
