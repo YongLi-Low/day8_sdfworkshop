@@ -3,6 +3,9 @@ package sg.edu.nus.iss;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
+
+import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  * Hello world!
@@ -89,5 +92,30 @@ public final class App {
         fos.flush();
         fos.close();
 
+        String fileEmployee = "employee.txt";
+
+        // create a file in the directory created above
+        File newEmployeeFile = new File(dirPath + File.separator + fileName);
+        boolean isEmployeeFileCreated = newFile.createNewFile();
+
+        if (isFileCreated) {
+            System.out.println("New file " + fileName + " created");
+        }
+        else {
+            System.out.println("File" + fileName + " already exists");
+        }
+
+        CSVWriter cw = new CSVWriter();
+        List<Employee> employeeList = cw.generateEmployees();
+        cw.writeToCSV(employeeList, dirPath + File.separator + fileEmployee);
+
+        CSVReader cr = new CSVReader();
+        List<Employee> employeeList1 = cr.readFromCSV(dirPath + File.separator + fileEmployee);
+
+        for (Employee e: employeeList1){
+            System.out.println(e);
+        }
     }
+
+    
 }

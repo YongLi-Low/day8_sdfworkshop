@@ -1,0 +1,5 @@
+staffNo, fullName, department, role, emailAddress, salary
+12345,Andy Tay,SS,Lecturer,abc@nus.edu.sg,40000,
+23456,Florence Chua,SS,Lecturer,abc@nus.edu.sg,20000,
+34567,Dionnis Lee,SS,Lecturer,abc@nus.edu.sg,10000,
+45678,Stephanie Ng,SS,Lecturer,abc@nus.edu.sg,60000,
