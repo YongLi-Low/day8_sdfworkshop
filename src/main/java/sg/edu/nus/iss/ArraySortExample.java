@@ -28,7 +28,7 @@ public class ArraySortExample {
     }
 
     public void example3() {
-        // int[] numbers = {10, 5, 1, 2, 4, 13, 46, 5, 6, 9, 8};
+        // Integer[] numbers = {10, 5, 1, 2, 4, 13, 46, 5, 6, 9, 8};
         Integer numbers[] = {10, 5, 1, 2, 4, 13, 46, 5, 6, 9, 8};  // this declaration can do reverse sort
 
         // sort numbers array in ascending order
