@@ -12,6 +12,10 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ArraySortExample ase = new ArraySortExample();
+        ase.example1();
+
+        CollectionSortExample cse = new CollectionSortExample();
+        cse.example2();
     }
 }
