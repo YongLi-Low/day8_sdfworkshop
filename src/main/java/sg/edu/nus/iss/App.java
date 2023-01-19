@@ -14,8 +14,15 @@ public final class App {
     public static void main(String[] args) {
         ArraySortExample ase = new ArraySortExample();
         ase.example1();
+        System.out.println();
 
         CollectionSortExample cse = new CollectionSortExample();
         cse.example2();
+        System.out.println();
+
+        ase.example3();
+        System.out.println();
+
+        cse.example4();
     }
 }
